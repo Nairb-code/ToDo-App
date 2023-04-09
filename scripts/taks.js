@@ -7,8 +7,8 @@
 window.addEventListener('load', function () {
 
   /* ---------------- variables globales y llamado a funciones ---------------- */
-  
-
+  const userName = document.querySelector(".username")
+  const btnCerrarSesion = document.querySelector("#closeApp")
 
   /* -------------------------------------------------------------------------- */
   /*                          FUNCIÓN 1 - Cerrar sesión                         */
